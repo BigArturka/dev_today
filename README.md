@@ -48,8 +48,15 @@ Other user:
 
 В приложении имеются endpoint-ы для следующий действий:  
 (Здесь приведены примеры с ссылками на развернутое приложение, 
-для локального тестирование замените url-адрес http://35.234.85.34/ на http://localhost:8000/)
+для локального тестирование замените url-адрес http://35.234.85.34/ на http://localhost:8000/)   
+Или загляните в коллекцию Postman, где собраны все точки входа с локальным url.
 
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/13063440-3a106d9c-2ddc-4bb3-b4af-e83cba3c717c?action=collection%2Ffork&collection-url=entityId%3D13063440-3a106d9c-2ddc-4bb3-b4af-e83cba3c717c%26entityType%3Dcollection%26workspaceId%3Dfc614439-c88b-4220-a74b-a575c0b2b132) 
+--
+___
+
+
+   
 Для запросов методами GET и POST не требуется авторизация.   
 Для выполнения запроса на создание/редактирование/удаление  или голосования, требуется авторизация по токену   
 (В зописании запросов на авторизацию, указано как верно нужно получать и использовать токен)
@@ -161,9 +168,7 @@ headers: {'Authorization': 'Token 754966ebf7a82daf397ae5da3111407566e64022'}
 Голосование за пост:    
 В приложении так же имеется точка доступа для отправки голоса за определенную публикацию или отмена голоса, если голос уже был отдан.       
 [http://35.234.85.34/api/post/{id желаемого поста}/vote/](http://35.234.85.34/api/post/1/vote/) {POST}    
-
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://god.gw.postman.com/run-collection/13063440-3a106d9c-2ddc-4bb3-b4af-e83cba3c717c?action=collection%2Ffork&collection-url=entityId%3D13063440-3a106d9c-2ddc-4bb3-b4af-e83cba3c717c%26entityType%3Dcollection%26workspaceId%3Dfc614439-c88b-4220-a74b-a575c0b2b132)    
+    
 
 [Развёрнутое приложение на сервере](http://35.234.85.34/api/) - 
 [http://35.234.85.34/api/](http://35.234.85.34/api/)    
